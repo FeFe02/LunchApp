@@ -1,3 +1,3 @@
-# LunchApp
+# LunchUp!
 
 Descripción de la aplicación.
