@@ -2,12 +2,12 @@ public class Stack {
     
     //Creación del nodo
     private class stackNodo{
-        Nodo data;
+        T data;
         stackNodo next;
         
-        public stackNodo (T val, Nodo x){
+        public stackNodo (T val, stackNodo x){
             data = val;
-            next = nodo;
+            next = x;
         }
 
         public void setData (T val) {
@@ -18,12 +18,12 @@ public class Stack {
 	        return data;
 	    }
 	
-    	public Node getNext () {
+    	public stackNodo getNext () {
     	    return next;
     	}
     	
-    	public void setNext (Node n) {
-    	    next = n;
+    	public void setNext (stackNodo x) {
+    	    next = x;
     	}
     }
 
@@ -48,6 +48,7 @@ public class Stack {
 
     //Método Pop
     public T stackPop(){
+		T data = null;
         if (top == null) return null;
         else{
             data = top.getData();
@@ -71,7 +72,7 @@ public class Stack {
 
     //Método Peek
     public T peek(){
-        T data = null
+        T data = null;
         if (top == null) return null;
         else data = top.getData();
         return data;
@@ -81,15 +82,19 @@ public class Stack {
 
 }
 
-class Main{
-    public static void main (String args[]){
-        Stack s = new Stack();
-        s.stackPush("Ana", "Ingeniería", "Universidad Nacional", "Yutakeuchi");
-        //s.pilaPush(20);
-        System.out.println(s.pilaSize());
 
-        System.out.println(s.pilaPop());
-        System.out.println(s.pilaPop());
-        System.out.println(s.pilaSize());	
+
+
+ class Main{
+    public static void main (String args[]){
+
+        Stack<Integer> s = new Stack<Integer>();
+        //s.stackPush("Ana", "Yutakeuchi");
+        //s.pilaPush(20);
+        System.out.println(s.stackSize());
+
+        System.out.println(s.stackPop());
+        System.out.println(s.stackPop());
+        System.out.println(s.stackSize());	
     }
 }
