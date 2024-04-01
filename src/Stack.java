@@ -81,20 +81,3 @@ public class Stack {
 
 
 }
-
-
-
-
- class Main{
-    public static void main (String args[]){
-
-        Stack<Integer> s = new Stack<Integer>();
-        //s.stackPush("Ana", "Yutakeuchi");
-        //s.pilaPush(20);
-        System.out.println(s.stackSize());
-
-        System.out.println(s.stackPop());
-        System.out.println(s.stackPop());
-        System.out.println(s.stackSize());	
-    }
-}
