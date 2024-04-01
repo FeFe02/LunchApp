@@ -43,32 +43,3 @@ public class Pila {
 
 
 }
-
-class Nodo {
-    String nombre;
-    String facultad;
-    String universidad;
-    String restaurante;
-    Nodo next;
-  
-    public Nodo(String nombre, String facultad, String universidad, String restaurante) {
-      this.nombre = nombre;
-      this.facultad = facultad;
-      this.universidad = universidad;
-      this.restaurante = restaurante;
-      this.next = null;
-    }
-  }
-
-class Main{
-    public static void main (String args[]){
-        Pila s = new Pila();
-        s.pilaPush("Ana", "Ingeniería", "Universidad Nacional", "Yutakeuchi");
-        //s.pilaPush(20);
-        System.out.println(s.pilaSize());
-
-        System.out.println(s.pilaPop());
-        System.out.println(s.pilaPop());
-        System.out.println(s.pilaSize());	
-    }
-}
