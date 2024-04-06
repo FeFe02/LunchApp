@@ -1,4 +1,6 @@
- public class LinkedStack {
+package Stacks;
+
+public class LinkedStack {
 
     class Node {
       Object elem;
