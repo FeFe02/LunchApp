@@ -103,6 +103,30 @@ public class Usuario {
         colaUsuarios.enqueue(Maria);
         colaUsuarios.enqueue(Gonzalo);
         colaUsuarios.enqueue(Laura);
+        colaUsuarios.enqueue(Aron);
+        colaUsuarios.enqueue(Luisa);
+        colaUsuarios.enqueue(Francisco);
+        colaUsuarios.enqueue(Guillermo);
+        colaUsuarios.enqueue(Daniela);
+        colaUsuarios.enqueue(Eduardo);
+        colaUsuarios.enqueue(Felipe);
+        colaUsuarios.enqueue(Natalia);
+        colaUsuarios.enqueue(Antonio);
+        colaUsuarios.enqueue(Rafael);
+        colaUsuarios.enqueue(Jorge);
+        colaUsuarios.enqueue(Estefania);
+        colaUsuarios.enqueue(Ignacio);
+        colaUsuarios.enqueue(Isabel);
+        colaUsuarios.enqueue(Kevin);
+        colaUsuarios.enqueue(Jessica);
+        colaUsuarios.enqueue(Helena);
+        colaUsuarios.enqueue(Gabriel);
+        colaUsuarios.enqueue(Alicia);
+        colaUsuarios.enqueue(Juliana);
+        colaUsuarios.enqueue(Carlos);
+        colaUsuarios.enqueue(Martin);
+        colaUsuarios.enqueue(Olivia);
+        colaUsuarios.enqueue(Santiago);
 
 
          // Imprimir la cola de usuarios
