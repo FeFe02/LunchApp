@@ -19,7 +19,7 @@ public class Usuario {
     
     public static void main(String[] args) {
         // Crear una cola de usuarios
-        Queue<Usuario> colaUsuarios = new LinkedList<>();
+        Qarray<Usuario> colaUsuarios = new Qarray<>(50);
 
         // Crear los objetos Usuario y agregarlos a la cola
         Usuario Alejandro = new Usuario( "Alejandro", "Universidad de los Andes", "Derecho", "Plazoleta Lleras");
@@ -77,32 +77,32 @@ public class Usuario {
 
 
         // Colas de usuarios activos
-        colaUsuarios.offer(Alejandro);
-        colaUsuarios.offer(Ana);
-        colaUsuarios.offer(Ezequiel);
-        colaUsuarios.offer(Camila);
-        colaUsuarios.offer(Diego);
-        colaUsuarios.offer(Mariana);
-        colaUsuarios.offer(Beatriz);
-        colaUsuarios.offer(David);
-        colaUsuarios.offer(Claudia); 
-        colaUsuarios.offer(Esteban);
-        colaUsuarios.offer(Andrea);
-        colaUsuarios.offer(Carolina); 
-        colaUsuarios.offer(Andres);
-        colaUsuarios.offer(Bruno);
-        colaUsuarios.offer(Julia); 
-        colaUsuarios.offer(Fernando);
-        colaUsuarios.offer(Juan);
-        colaUsuarios.offer(Erika);
-        colaUsuarios.offer(Cecilia);
-        colaUsuarios.offer(Adriana);
-        colaUsuarios.offer(Leonardo);
-        colaUsuarios.offer(Enrique);
-        colaUsuarios.offer(Diana);
-        colaUsuarios.offer(Maria);
-        colaUsuarios.offer(Gonzalo);
-        colaUsuarios.offer(Laura);
+        colaUsuarios.enqueue(Alejandro);
+        colaUsuarios.enqueue(Ana);
+        colaUsuarios.enqueue(Ezequiel);
+        colaUsuarios.enqueue(Camila);
+        colaUsuarios.enqueue(Diego);
+        colaUsuarios.enqueue(Mariana);
+        colaUsuarios.enqueue(Beatriz);
+        colaUsuarios.enqueue(David);
+        colaUsuarios.enqueue(Claudia); 
+        colaUsuarios.enqueue(Esteban);
+        colaUsuarios.enqueue(Andrea);
+        colaUsuarios.enqueue(Carolina); 
+        colaUsuarios.enqueue(Andres);
+        colaUsuarios.enqueue(Bruno);
+        colaUsuarios.enqueue(Julia); 
+        colaUsuarios.enqueue(Fernando);
+        colaUsuarios.enqueue(Juan);
+        colaUsuarios.enqueue(Erika);
+        colaUsuarios.enqueue(Cecilia);
+        colaUsuarios.enqueue(Adriana);
+        colaUsuarios.enqueue(Leonardo);
+        colaUsuarios.enqueue(Enrique);
+        colaUsuarios.enqueue(Diana);
+        colaUsuarios.enqueue(Maria);
+        colaUsuarios.enqueue(Gonzalo);
+        colaUsuarios.enqueue(Laura);
 
 
          // Imprimir la cola de usuarios
