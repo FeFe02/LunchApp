@@ -1,5 +1,5 @@
 
-package colaproyecto;
+package Colas;
 
 
 //Clase Qarray: colaimplementada con arreglo circular
