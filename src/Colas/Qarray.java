@@ -2,7 +2,7 @@ package Colas;
 
 
 //Clase Qarray: colaimplementada con arreglo circular
-class Qarray<T> {
+public class Qarray<T> {
     
     int front = 0; //casilla inicial
     int rear = 0;  //casilla final
